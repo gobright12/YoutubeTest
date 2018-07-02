@@ -10,7 +10,7 @@ import UIKit
 import youtube_ios_player_helper
 
 class YoutubeViewController: UIViewController {
-
+    // load youtube video
     @IBOutlet weak var playerView: YTPlayerView! {
         didSet {
             playerView.load(withVideoId: "KwpnECo7jhs")
